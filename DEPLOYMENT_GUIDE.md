@@ -185,7 +185,7 @@ It's a **free hosting service** that runs your app 24/7 on the internet.
 
 3. **In the text box, paste EXACTLY this:**
    ```toml
-   GEMINI_API_KEY = "AIzaSyD7QN1A3hFmQOcXGz461cA56oOhTOV1wYw"
+   GEMINI_API_KEY
    ```
 
    **IMPORTANT:**
