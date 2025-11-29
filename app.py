@@ -419,7 +419,7 @@ with st.sidebar:
                 "Refinement instructions",
                 value="Review and improve clarity and structure",
                 placeholder="e.g., 'Make code PEP8 compliant' or 'Add more examples'",
-                height=60
+                height=70
             )
         else:
             iterate_instructions = ""
