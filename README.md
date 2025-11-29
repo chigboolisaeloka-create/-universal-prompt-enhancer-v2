@@ -1,5 +1,9 @@
 # ✨ Universal Prompt Enhancer
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://upe-tool-v2.streamlit.app/)
+
+🚀 **[Try it Live!](https://upe-tool-v2.streamlit.app/)**
+
 Transform raw, unstructured prompts into professional, well-crafted prompts using Google's Gemini AI. Built with Streamlit for a beautiful, intuitive interface.
 
 ## 🌟 Features
