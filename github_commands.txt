@@ -1,0 +1,15 @@
+# GitHub Upload Commands
+# Run these AFTER creating your GitHub repository
+
+# Step 1: Make sure you're in the right directory
+cd C:\Users\olisaeloka\upe_tool
+
+# Step 2: Add GitHub as remote (REPLACE YOUR-USERNAME!)
+git remote add origin https://github.com/YOUR-USERNAME/universal-prompt-enhancer.git
+
+# Step 3: Push your code to GitHub
+git push -u origin main
+
+# Example (if your username is "olisaeloka"):
+# git remote add origin https://github.com/olisaeloka/universal-prompt-enhancer.git
+# git push -u origin main
