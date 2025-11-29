@@ -20,6 +20,17 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ============================================================================
+# PAGE CONFIGURATION (Must be first Streamlit command)
+# ============================================================================
+
+st.set_page_config(
+    page_title="Universal Prompt Enhancer",
+    page_icon="✨",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+# ============================================================================
 # CONSTANTS
 # ============================================================================
 
@@ -284,12 +295,7 @@ if 'last_api_call' not in st.session_state:
 # PAGE CONFIGURATION
 # ============================================================================
 
-st.set_page_config(
-    page_title="Universal Prompt Enhancer",
-    page_icon="✨",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+
 
 # Load custom CSS
 load_custom_css()
