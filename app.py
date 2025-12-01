@@ -124,6 +124,7 @@ def load_custom_css() -> None:
     """Load custom CSS styling."""
     css = """
     <style>
+        /* Main Header - Responsive Font Size */
         .main-header {
             font-size: 2.5rem;
             font-weight: 700;
@@ -132,33 +133,57 @@ def load_custom_css() -> None:
             -webkit-text-fill-color: transparent;
             margin-bottom: 0.5rem;
         }
+        @media (max-width: 768px) {
+            .main-header {
+                font-size: 1.8rem;
+            }
+        }
+
+        /* Subtitle - Responsive Font Size */
         .subtitle {
             font-size: 1.1rem;
-            color: #888;
+            color: var(--text-color);
+            opacity: 0.8;
             margin-bottom: 2rem;
         }
+        @media (max-width: 768px) {
+            .subtitle {
+                font-size: 0.9rem;
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        /* Text Area Font */
         .stTextArea textarea {
             font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
         }
+
+        /* Example Box - Theming Support */
         .example-box {
-            background-color: #262730;
+            background-color: var(--secondary-background-color);
             padding: 1rem;
             border-radius: 0.5rem;
             border-left: 3px solid #FF4B4B;
             margin: 0.5rem 0;
         }
+
+        /* Stat Box - Theming Support */
         .stat-box {
-            background-color: #262730;
+            background-color: var(--secondary-background-color);
             padding: 0.75rem;
             border-radius: 0.5rem;
             text-align: center;
+            border: 1px solid rgba(128, 128, 128, 0.2);
         }
+
+        /* Technique Box - Theming Support */
         .technique-box {
-            background-color: #1e1e1e;
+            background-color: var(--secondary-background-color);
             padding: 0.5rem;
             border-radius: 0.3rem;
             margin: 0.3rem 0;
             border-left: 2px solid #4CAF50;
+            border: 1px solid rgba(128, 128, 128, 0.2);
         }
     </style>
     """
